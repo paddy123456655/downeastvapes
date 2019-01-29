@@ -1,8 +1,8 @@
 nav_items:
   - label: Home
     path: /
-  - label: Vaporizer Reviews
-    path: /vaporizer-reviews
+  - label: Products
+    path: /products
   - label: Blog
     path: /blog
   - label: About
