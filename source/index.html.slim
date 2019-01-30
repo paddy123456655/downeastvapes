@@ -20,7 +20,7 @@ section.homepage-products.products
     .row
       //product is structured: ['filename', 'data']
       //sort by newest product
-      - data.products.sort {|a,b| b[1].date <=> a[1].date}.first(6).each do | product |
+      - data.products.sort {|a,b| b[1].date <=> a[1].date}.first(3).each do | product |
 
         //to get the actual data:
         = partial 'partials/products/product', locals: {product: product[1]}
@@ -31,5 +31,5 @@ section.homepage-news.news
       | News
     .news-items
       //get the first two most recent posts
-      - blog.articles.first(3).each do | article |
+      - blog.articles.first(2).each do | article |
         = partial 'partials/news/news_item', locals: {article: article}
