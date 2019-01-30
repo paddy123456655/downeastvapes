@@ -3,9 +3,7 @@ nav_items:
     path: /
   - label: Products
     path: /products
-  - label: Blog
-    path: /blog
-  - label: About
-    path: ' /about'
+  - label: news
+    path: ' /news'
   - label: Contact
     path: /contact
